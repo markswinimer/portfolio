@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/markswinimer/portfolio/static/css/main.b100e6da.chunk.css",
+    "main.js": "/markswinimer/portfolio/static/js/main.b5515c0b.chunk.js",
+    "main.js.map": "/markswinimer/portfolio/static/js/main.b5515c0b.chunk.js.map",
+    "runtime-main.js": "/markswinimer/portfolio/static/js/runtime-main.bb0d0f8b.js",
+    "runtime-main.js.map": "/markswinimer/portfolio/static/js/runtime-main.bb0d0f8b.js.map",
+    "static/js/2.bcd42778.chunk.js": "/markswinimer/portfolio/static/js/2.bcd42778.chunk.js",
+    "static/js/2.bcd42778.chunk.js.map": "/markswinimer/portfolio/static/js/2.bcd42778.chunk.js.map",
+    "index.html": "/markswinimer/portfolio/index.html",
+    "precache-manifest.225bfc16282c1311b8deb4559e9b9115.js": "/markswinimer/portfolio/precache-manifest.225bfc16282c1311b8deb4559e9b9115.js",
+    "service-worker.js": "/markswinimer/portfolio/service-worker.js",
+    "static/css/main.b100e6da.chunk.css.map": "/markswinimer/portfolio/static/css/main.b100e6da.chunk.css.map",
+    "static/media/logo.svg": "/markswinimer/portfolio/static/media/logo.25bf045c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bb0d0f8b.js",
+    "static/js/2.bcd42778.chunk.js",
+    "static/css/main.b100e6da.chunk.css",
+    "static/js/main.b5515c0b.chunk.js"
+  ]
+}
