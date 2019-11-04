@@ -1,0 +1,38 @@
+.Navbar {
+  background-color: $themeWhite;
+  border: $viewportBorderSize solid $themeNavy;
+  border-bottom: none;
+
+}
+.Navbar-container {
+  max-width: $contentMaxWidth;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  padding: $contentPadding;
+}
+
+.Navbar-avatar-container {
+  width: 75px;
+  height: 75px;
+  overflow: hidden;
+  margin-right: auto;
+  border-radius: 3px;
+
+  img {
+    max-height: 100px;
+  }
+}
+
+.Navbar-link-container {
+  margin-top: auto;
+
+  a {
+    text-decoration: none;
+    color:$themeNavy;
+    font-family: $themeSubheaderFont;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+  }
+}
