@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { HashRouter, Route, Link } from "react-router-dom";
-import './App.css';
+import './Main.scss';
 
 class App extends Component {
   render() {

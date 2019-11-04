@@ -1,7 +1,13 @@
+@import "variables.scss";
+
 .App {
   text-align: center;
+  background-color: $primaryColor;
 }
 
+h2 {
+  color: blue;
+}
 .App-logo {
   height: 40vmin;
 }
