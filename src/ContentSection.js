@@ -10,9 +10,9 @@ class ContentSection extends Component {
             <div className="ContentSection-image">
               <img src="https://assets.pcmag.com/media/images/521567-how-to-build-a-website.jpg?thumb=y&width=810&height=456" />
             </div>
-            <p>React</p>
-            <p>Javascript</p>
-            <p>Ruby on Rails</p>
+            <p>react</p>
+            <p>javascript</p>
+            <p>ruby</p>
           </div>
           <div className="ContentSection-right">
             <h1>{header}</h1>

@@ -3,6 +3,7 @@ import Title from './Title';
 import ContentSection from './ContentSection';
 import ContentDivider from './ContentDivider';
 import SimpleContentSection from './SimpleContentSection';
+import Footer from './Footer';
 
 class Home extends Component {
   render() {
@@ -36,6 +37,7 @@ class Home extends Component {
             header="Contact me!"
             content="I'd love to share some of my work with you. Feel free to reach out via email or see my work at one of these links. I'd love to share some of my work with you. Feel free to reach out via email or see my work at one of these links."
           />
+          <Footer />
         </div>
       </div>
     )

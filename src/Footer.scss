@@ -1,0 +1,28 @@
+.Footer-container {
+  background-color: $themeNavy;
+  padding: .5rem $contentPadding;
+  padding-top: 1rem;
+}
+
+.Footer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.Footer-icons {
+
+  i {
+    color: $themeWhite;
+    margin-right: 1rem;
+  }
+}
+
+.Footer-contact {
+  margin-left: auto;
+  p {
+    color: $themeWhite;
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+}
