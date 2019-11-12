@@ -5,6 +5,26 @@ $viewportBorderSize: .5rem;
 $defaultPadding: 1rem;
 $contentPadding: 2.5rem;
 $contentMaxWidth: 1000px;
+$borderRadius: 3px;
 
 $themeHeaderFont: Oleo Script;
 $themeSubheaderFont: Nunito, display;
+$themeCopyFont: Nunito, display;
+
+h1 {
+  font-family: $themeHeaderFont;
+  font-weight: 400;
+
+}
+h2 {
+  font-family: $themeSubheaderFont;
+  font-weight: 500;
+}
+
+p {
+  font-family: $themeCopyFont;
+  margin-top: 1rem;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}

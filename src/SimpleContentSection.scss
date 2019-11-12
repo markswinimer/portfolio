@@ -1,0 +1,12 @@
+.SimpleContentSection-container {
+  padding: $contentPadding;
+}
+
+.SimpleContentSection {
+  max-width: $contentMaxWidth / 1.5;
+  margin: auto;
+  text-align: center;
+  color: $themeNavy;
+  padding: 4rem 0;
+  padding-bottom: 5rem;
+}

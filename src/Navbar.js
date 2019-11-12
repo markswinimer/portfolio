@@ -10,8 +10,8 @@ class Navbar extends Component {
         </div>
         <div className="Navbar-link-container">
           <a href="/">Home</a>
-          <a href="https://www.linkedin.com/in/markswinimer/">linkedin</a>
-          <a href="https://github.com/markswinimer">github</a>
+          <a href="https://www.linkedin.com/in/markswinimer/">Linkedin</a>
+          <a href="https://github.com/markswinimer">Github</a>
           {/* <a className="Navbar-link">blog</a> */}
         </div>
         </div>

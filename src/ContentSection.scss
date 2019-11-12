@@ -1,0 +1,66 @@
+.ContentSection-container {
+  padding: $contentPadding;
+  min-height: 500px;
+  display: flex;
+  vertical-align: middle;
+}
+
+.navy {
+  background-color: $themeNavy;
+  color: $themeWhite;
+}
+.white {
+  background-color: $themeWhite;
+  color: $themeNavy;
+}
+
+.ContentSection {
+  max-width: $contentMaxWidth;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-family: $themeSubheaderFont;
+    font-size: 1.7rem;
+    font-weight: 400;
+    margin-top: .15rem;
+    margin-bottom: .5rem;
+  }
+  p {
+    font-weight: 400;
+  }
+}
+
+.ContentSection-left {
+  text-align: right;
+  margin-right: 1.5 * $contentPadding;
+  // flex-grow: auto;
+  margin-left: auto;
+}
+
+.ContentSection-image {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  overflow: hidden;
+  border-radius: $borderRadius;
+  max-width: 200px;
+  width: 200px;
+  max-height: 125px;
+
+  img {
+    // max-width: 50%;
+    width: 300px;
+    flex-shrink: none;
+  }
+}
+
+
+.ContentSection-right {
+  flex-grow: auto;
+  max-width: 500px;
+}

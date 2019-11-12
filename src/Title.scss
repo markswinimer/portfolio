@@ -19,23 +19,22 @@
 .Title-name {
 
   h1 {
-    font-family: $themeHeaderFont;
+    font-size: 72px;
     color: $themeNavy;
     margin: auto;
   }
   h2 {
-    font-family: $themeSubheaderFont;
     font-size: 1.7rem;
-    font-weight: 300;
+    color: $themeNavy;
   }
 }
 
 .Title-about {
   margin: auto;
+  color: $themeNavy;
   max-width: 700px;
   margin-top: 3rem;
   font-family: $themeSubheaderFont;
   font-size: 1.7rem;
-  font-weight: 300;
   font-size: 1.25rem;
 }
