@@ -13,6 +13,11 @@
   h1 {
     font-size: 2.5rem;
   }
+  p {
+    margin-top: 2rem;
+    line-height: 2.25rem;
+
+  }
 }
 
 .SimpleContentSection-links {
@@ -22,3 +27,31 @@
   text-align: left;
   margin: auto;
 }
+
+.SimpleContentSection-button {
+  margin: 0 auto;
+  margin-top: 3rem;
+  padding: .5rem 1rem;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: none;
+  background-color: none;
+  color: $themeNavy;
+  border: 1px solid $themeNavy;
+  cursor: pointer;
+  transition: .2s ease-in;
+}
+.SimpleContentSection-button:hover {
+  font-weight: 300;
+  background-color: $themeNavy;
+  color: $themeWhite;
+  border: 1px solid $themeWhite;
+}
+// .SimpleContentSection-button:active {
+//   background-color: none;
+//   color: $themeNavy;
+//   border: 1px solid $themeNavy;
+// }

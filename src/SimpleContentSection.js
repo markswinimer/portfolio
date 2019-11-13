@@ -10,11 +10,7 @@ class SimpleContentSection extends Component {
           <h1>{header}</h1>
           <p>{content}</p>
           <div className="SimpleContentSection-links">
-{/* 
-            <p><i className="fas fa-envelope-square" /> markswinimer@gmail.com</p>
-            <p><i className="fab fa-github" /> github.com/markswinimer</p>
-            <p><i className="fab fa-linkedin" /> linkedin.com/in/markswinimer</p> */}
-
+            <div className="SimpleContentSection-button">Reach out</div>
         </div>
         </div>
       </div>
