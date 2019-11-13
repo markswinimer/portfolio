@@ -13,11 +13,17 @@
 }
 
 .Navbar-avatar-container {
-  width: 75px;
-  height: 75px;
+  width: 50px;
+  height: 50px;
+  padding: 10px 10px;
   overflow: hidden;
   margin-right: auto;
   border-radius: 3px;
+  background-color: $themeNavy;
+  color: $themeWhite;
+  font-family: $themeHeaderFont;
+  font-size: 50px;
+  line-height: 60px;
 
   img {
     max-height: 100px;

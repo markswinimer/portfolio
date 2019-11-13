@@ -6,7 +6,8 @@ class Navbar extends Component {
       <div className="Navbar">
       <div className="Navbar-container">
         <div className="Navbar-avatar-container">
-          <img src="https://www.washingtonpost.com/resizer/g8YZs6VSwW8io7_i13wBggeYqnA=/767x0/smart/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/BQRPP7J4D5FLDBA5EN4Q7YBIJA.jpeg"/>
+          M
+          {/* <img src="https://www.washingtonpost.com/resizer/g8YZs6VSwW8io7_i13wBggeYqnA=/767x0/smart/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/BQRPP7J4D5FLDBA5EN4Q7YBIJA.jpeg"/> */}
         </div>
         <div className="Navbar-link-container">
           <a href="/">Home</a>

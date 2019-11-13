@@ -1,20 +1,17 @@
 import React, { Component } from 'react';
+import profile from './images/profile-dog.jpg';
 
-class ContentSection extends Component {
+
+class ContentSectionAbout extends Component {
   render() {
     const { header, subheader, content } = this.props;
     return(
       <div className={`ContentSection-container ${this.props.color}`}>
         <div className="ContentSection">
-          <div className="ContentSection-left">
-            <h2>Recent</h2>
-            <ul>
-              <li>React</li>
-              <li>ES6 Javascript</li>
-              <li>Ruby on Rails</li>
-              <li>WordPress</li>
-              <li>HTML & CSS</li>
-            </ul>
+          <div className="ContentSection-left-about">
+            <div className="ContentSection-image-about">
+              <img src={profile} />
+            </div>
           </div>
           <div className="ContentSection-right">
             <h1>{header}</h1>
@@ -26,4 +23,4 @@ class ContentSection extends Component {
     )
   }
 }
-export default ContentSection;
+export default ContentSectionAbout;
