@@ -8,28 +8,54 @@ class ProjectSection extends Component {
           <div className="ProjectSection-blurb">
             <h1>Projects</h1>
             <h2>What I'm working on</h2>
-            <p>Filler content is being input here so that I can type and not worry about making sense and still fill out a section of content for test readers to read and by test readers I mean myself because no one will be reading this at all!</p>
+            <p>In this section, I will display a few of the projects I have been working on. Talk about the technology that interests you and what excites you. Relate to a specific project or two and talk about a framework or concept you enjoyed. Encourage looking at that project.</p>
           </div>
-          <div className="ProjectSection-project-container">
-            <div className="ProjectSection-project">
-              <a href="github.com/markswinimer"><i className="fab fa-github" /></a>
-              <a href="github.com/markswinimer"><i className="fas fa-eye"></i></a>
-              <h2>Nerd Words</h2>
-              <p>a web development project created in 2 weeks</p>
-            </div>
-            <div className="ProjectSection-project">
-              <a href="github.com/markswinimer"><i className="fab fa-github" /></a>
-              <a href="github.com/markswinimer"><i className="fas fa-eye"></i></a>
+
+          <div className="ProjectSection-grid">
+
+            <div className="ProjectSection-grid-card">
               <h2>UIE Landing Page</h2>
-              <p>my redesign and implementation of UIE's landing page</p>
+              <p>A word library application designed as user created decks for Pictionary and other word games.</p>
+              <div className="ProjectSection-links">
+                <a href="github.com/markswinimer"><i className="fab fa-github" /></a>
+                <a href="github.com/markswinimer"><i className="fas fa-eye"></i></a>
+                <div className="ProjectSection-tags">
+                  <h4>Ruby</h4>
+                  <h4>Rails</h4>
+                  <h4>React</h4>
+                </div>
+              </div>
             </div>
-            <div className="ProjectSection-project">
-              <a href="github.com/markswinimer"><i className="fab fa-github" /></a>
-              <a href="github.com/markswinimer"><i className="fas fa-eye"></i></a>
-              <h2>Colorpicker</h2>
-              <p>React Color project done as a code along</p>
+            <div className="ProjectSection-grid-card">
+              <h2>Nerd Words</h2>
+              <p>A word library application designed as user created decks for Pictionary and other word games.</p>
+              <div className="ProjectSection-links">
+                <a href="github.com/markswinimer"><i className="fab fa-github" /></a>
+                <a href="github.com/markswinimer"><i className="fas fa-eye"></i></a>
+                <div className="ProjectSection-tags">
+                  <h4>Ruby</h4>
+                  <h4>Rails</h4>
+                  <h4>React</h4>
+                </div>
+              </div>
             </div>
+          
+            <div className="ProjectSection-grid-card">
+              <h2>Nerd Words</h2>
+              <p>A word library application designed as user created decks for Pictionary and other word games.</p>
+              <div className="ProjectSection-links">
+                <a href="github.com/markswinimer"><i className="fab fa-github" /></a>
+                <a href="github.com/markswinimer"><i className="fas fa-eye"></i></a>
+                <div className="ProjectSection-tags">
+                  <h4>Ruby</h4>
+                  <h4>Rails</h4>
+                  <h4>React</h4>
+                </div>
+              </div>
+            </div>
+
           </div>
+
         </div>
       </div>
     )

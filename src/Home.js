@@ -20,7 +20,7 @@ class Home extends Component {
             color="navy"
             header="About me"
             subheader="Process and Technologies"
-            content="Filler content is being input here so that I can type and not worry about making sense and still fill out a section of content for test readers to read and by test readers I mean myself because no one will be reading this at all!"
+            content="Briefly talk about yourself and how you got into coding as a career. Talk about transition from design in college to more web based solutions. Time at launch academy will be included. Maybe a desire to work on web applications specificly and an enjoyment for the front end."
           />
           <ContentDivider startPositionColor="navy"/>
 

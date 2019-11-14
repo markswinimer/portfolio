@@ -7,7 +7,7 @@
     color: $themeNavy;
 }
 .ProjectSection {
-  max-width: $contentMaxWidth;
+  max-width: 725px;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -28,23 +28,65 @@
 .ProjectSection-blurb {
   max-width: 600px;
 }
-.ProjectSection-project-container {
-  padding-left: 0rem;
-  margin-top: 1rem;
+
+.ProjectSection-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-bottom: 2rem;
+}
+
+.ProjectSection-grid-card {
+  flex: 1;
+  padding: 2rem;
+  margin-top: 2rem;
+  min-height: 200px;
+  justify-content: space-between;
+  color: $themeNavy;
+  background-color: $themeWhite;
+  border: 2px solid $themeNavy;
+  border-radius: .45rem;
   display: flex;
   flex-direction: column;
+
+  h2 {
+    font-weight: 700;
+    // font-size: 1.75rem;
+  }
+  h4 {
+    font-size: 1.2rem;
+  }
 }
-.ProjectSection-project {
-  margin-top: 1rem;
-  line-height: 2rem;
+.ProjectSection-grid-card:nth-child(even) {
+  margin-left: 2rem;
+}
+
+.Flourish {
+  border-bottom: 2px solid $themeNavy;
+  margin: 1rem 0;
+  width: 15%;
+}
+
+.ProjectSection-links {
+  margin-top: auto;
   display: flex;
   flex-direction: row;
   align-items: center;
-  h2 {
+  padding-top: 1rem;
+
+  i {
     margin-right: 1rem;
   }
-  i {
-    font-size: 1.75rem;
-    margin-right: 1rem;
+}
+
+.ProjectSection-tags {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+
+  h4 {
+      font-weight: 400;
+      font-size: 1rem;
+      margin-left: 1rem;
   }
 }
