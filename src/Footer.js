@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 class Footer extends Component {
   render() {
     return(
-      <div className="Footer-container">
         <div className="Footer">
           <div className="Footer-icons">
             {/* <i className="fas fa-envelope-square" /> */}
@@ -14,7 +13,6 @@ class Footer extends Component {
             <p>2019 Mark Swinimer | markswinimer@gmail.com </p>
           </div>
         </div>
-      </div>
     )
   }
 }

@@ -1,14 +1,14 @@
-.ContentDivider {
+.Divider {
   position: relative;
   margin: auto;
   border: none;
 }
 
-.ContentDivider > * {
+.Divider > * {
   width: 75px;
 }
 
-.ContentDivider-top-white {
+.Divider-top-white {
   margin:auto;
   position: relative;
   top: 25px;
@@ -17,7 +17,7 @@
   border-top: 20px #2A363B solid;
   transform: rotate(45deg);
 }
-.ContentDivider-bottom-white {
+.Divider-bottom-white {
   position: relative;
   top: 15px;
   right: 20px;
@@ -27,7 +27,7 @@
   /* border-right: 15px #FAFAFA solid; */
   transform: rotate(45deg);
 }
-.ContentDivider-top-white {
+.Divider-top-white {
   margin:auto;
   position: relative;
   top: 25px;
@@ -36,7 +36,7 @@
   border-top: 20px #2A363B solid;
   transform: rotate(45deg);
 }
-.ContentDivider-bottom-white {
+.Divider-bottom-white {
   position: relative;
   top: 15px;
   right: 20px;
@@ -47,7 +47,7 @@
   transform: rotate(45deg);
 }
 
-.ContentDivider-top-navy {
+.Divider-top-navy {
   margin:auto;
   position: relative;
   top: -20px;
@@ -59,7 +59,7 @@
   /* border-left: 15px #2A363B solid; */
   transform: rotate(45deg);
 }
-.ContentDivider-bottom-navy {
+.Divider-bottom-navy {
   position: relative;
   top: -25px;
   right: 20px;

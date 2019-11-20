@@ -1,13 +1,10 @@
-.Footer-container {
-  background-color: $themeNavy;
-  padding: .5rem $contentPadding;
-  padding-top: 1rem;
-}
-
 .Footer {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
+  background-color: $themeNavy;
+  padding: .5rem $contentPadding;
+  padding-top: 1rem;
 }
 
 .Footer-icons {

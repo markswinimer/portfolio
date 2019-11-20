@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-class ContentSection extends Component {
+class Content extends Component {
   render() {
     const { header, subheader, content } = this.props;
     return(
-      <div className={`ContentSection-container ${this.props.color}`}>
-        <div className="ContentSection">
-          <div className="ContentSection-left">
-            <div className="ContentSection-tech">
+      <div className={`Content-container ${this.props.color}`}>
+        <div className="Content">
+          <div className="Content-left">
+            <div className="Content-tech">
                 <p>React</p>
                 <p>ES6 Javascript</p>
                 <p>HTML & CSS</p>
@@ -15,7 +15,7 @@ class ContentSection extends Component {
                 <p>WordPress</p>
             </div>
           </div>
-          <div className="ContentSection-right">
+          <div className="Content-right">
             <h1>{header}</h1>
             <h2>{subheader}</h2>
             <p>{content}</p>
@@ -25,4 +25,4 @@ class ContentSection extends Component {
     )
   }
 }
-export default ContentSection;
+export default Content;

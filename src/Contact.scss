@@ -1,8 +1,6 @@
-.SimpleContentSection-container {
+.Contact {
   padding: $contentPadding;
-}
 
-.SimpleContentSection {
   max-width: $contentMaxWidth / 1.5;
   margin: auto;
   text-align: center;
@@ -20,7 +18,7 @@
   }
 }
 
-.SimpleContentSection-links {
+.Contact-links {
   flex-direction: column;
   margin-top: 4rem;
   display: flex;
@@ -28,7 +26,7 @@
   margin: auto;
 }
 
-.SimpleContentSection-button {
+.Contact-button {
   margin: 0 auto;
   margin-top: 3rem;
   padding: .5rem 1rem;
@@ -44,20 +42,20 @@
   cursor: pointer;
   transition: .2s ease-in;
 }
-.SimpleContentSection-button:hover {
+.Contact-button:hover {
   font-weight: 300;
   background-color: $themeNavy;
   color: $themeWhite;
   border: 1px solid $themeWhite;
 }
-// .SimpleContentSection-button:active {
+// .Contact-button:active {
 //   background-color: none;
 //   color: $themeNavy;
 //   border: 1px solid $themeNavy;
 // }
 
 @media only screen and (max-width: 650px) {
-  .SimpleContentSection {
+  .Contact {
     text-align: left;
     p {
       margin-top: .5rem;
@@ -65,7 +63,7 @@
     padding: 0;
   }
 
-  .SimpleContentSection-button {
+  .Contact-button {
     margin: 3.5rem 0;
     margin-bottom: 2.5rem;
     max-width: 100%;

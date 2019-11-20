@@ -1,10 +1,4 @@
 .Navbar {
-  background-color: $themeWhite;
-  border: $viewportBorderSize solid $themeNavy;
-  border-bottom: none;
-
-}
-.Navbar-container {
   max-width: $contentMaxWidth;
   margin: auto;
   display: flex;
@@ -12,25 +6,20 @@
   padding: $contentPadding;
 }
 
-.Navbar-avatar-container {
+.Navbar-logo {
   width: 40px;
   height: 40px;
   padding: 10px 10px;
-  overflow: hidden;
   margin-right: auto;
-  border-radius: 3px;
+  border-radius: 2px;
   background-color: $themeNavy;
   color: $themeWhite;
   font-family: $themeHeaderFont;
   font-size: 40px;
   line-height: 50px;
-
-  img {
-    max-height: 100px;
-  }
 }
 
-.Navbar-link-container {
+.Navbar-links {
   margin-top: auto;
 
   a {
@@ -39,6 +28,6 @@
     font-family: $themeSubheaderFont;
     font-weight: 500;
     font-size: 1.2rem;
-    margin-left: 1rem;
+    margin-left: 1.5rem;
   }
 }

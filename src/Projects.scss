@@ -1,17 +1,14 @@
-
-.ProjectSection-container {
-    padding: $contentPadding;
-    min-height: 500px;
-    display: flex;
-    vertical-align: middle;
-    color: $themeNavy;
-}
-.ProjectSection {
+.Projects {
   max-width: 725px;
   margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: $contentPadding;
+  min-height: 500px;
+  display: flex;
+  vertical-align: middle;
+  color: $themeNavy;
 
   h1 {
     font-size: 2.5rem;
@@ -25,18 +22,18 @@
   }
 }
 
-.ProjectSection-blurb {
+.Projects-blurb {
   max-width: 600px;
 }
 
-.ProjectSection-grid {
+.Projects-grid {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   padding-bottom: 2rem;
 }
 
-.ProjectSection-grid-card {
+.Projects-grid-card {
   flex: 1;
   padding: 2rem;
   margin-top: 2rem;
@@ -57,7 +54,7 @@
     font-size: 1.2rem;
   }
 }
-.ProjectSection-grid-card:nth-child(even) {
+.Projects-grid-card:nth-child(even) {
   margin-left: 2rem;
 }
 
@@ -67,7 +64,7 @@
   width: 15%;
 }
 
-.ProjectSection-links {
+.Projects-links {
   margin-top: auto;
   display: flex;
   flex-direction: row;
@@ -79,7 +76,7 @@
   }
 }
 
-.ProjectSection-tags {
+.Projects-tags {
   display: flex;
   flex-direction: row;
   margin-left: auto;
@@ -92,7 +89,7 @@
 }
 @media only screen and (max-width: 780px) {
 
-  .ProjectSection-grid-card:nth-child(even) {
+  .Projects-grid-card:nth-child(even) {
     margin-left: 0;
   }
 }

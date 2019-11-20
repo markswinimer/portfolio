@@ -1,12 +1,8 @@
-.Title-container {
-  max-width: $contentMaxWidth;
-  margin: auto;
-  text-align: center;
-}
-
 .Title {
   height: 370px;
+  text-align: center;
   min-height: 300px;
+  margin: auto;
   max-width: $contentMaxWidth;
   padding: $defaultPadding + 2rem;
   display: flex;

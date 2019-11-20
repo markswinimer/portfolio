@@ -1,10 +1,3 @@
-.ContentSection-container {
-  padding: $contentPadding;
-  min-height: 500px;
-  display: flex;
-  vertical-align: middle;
-}
-
 .navy {
   background-color: $themeNavy;
   color: $themeWhite;
@@ -14,7 +7,9 @@
   color: $themeNavy;
 }
 
-.ContentSection {
+.Content {
+  vertical-align: middle;
+  padding: $contentPadding;
   max-width: $contentMaxWidth;
   margin: auto;
   display: flex;
@@ -33,7 +28,7 @@
   }
 }
 
-.ContentSection-left {
+.Content-left {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -56,7 +51,7 @@
     font-size: 1.1rem;
   }
 }
-.ContentSection-tech {
+.Content-tech {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -82,7 +77,7 @@
   }
 }
 
-.ContentSection-image {
+.Content-image {
   margin-top: 1rem;
   margin-bottom: 1rem;
   overflow: hidden;
@@ -99,18 +94,18 @@
 }
 
 
-.ContentSection-right {
+.Content-right {
   flex-grow: auto;
   max-width: 500px;
 }
 
-.ContentSection-left-about {
+.Content-left-about {
 display: flex;
 align-items: center;
 vertical-align: middle;
 }
 
-.ContentSection-image-about {
+.Content-image-about {
   overflow: hidden;
   border-radius: 50%;
   height: 150px;
@@ -127,23 +122,23 @@ vertical-align: middle;
   }
 }
 
-  .ContentSection-image-about:hover {
+  .Content-image-about:hover {
     filter: hue-rotate(120deg) grayscale(.3) brightness(1.2);
   }
 
 @media only screen and (max-width: 650px) {
-  .ContentSection {
+  .Content {
     min-height: 0;
     flex-direction: column;
     padding: 5rem 0;
   }
-  .ContentSection-image-about {
+  .Content-image-about {
     margin-left: 0;
     margin-right: 0;
     margin: auto;
     margin-bottom: 2.5rem;
   }
-  .ContentSection-container {
+  .Content-container {
     padding: $contentPadding;
     min-height: 0;
     display: flex;
@@ -151,7 +146,7 @@ vertical-align: middle;
   }
 
 
-  .ContentSection-left {
+  .Content-left {
     display: none;
   }
 
