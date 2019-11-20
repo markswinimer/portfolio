@@ -8,15 +8,15 @@ class App extends Component {
   render() {
     return(
       <HashRouter basename='/'>
-      <div>
-        <Navbar/>
-        <Route exact path="/" component={ Home } />
+        <div className="App-container">
+          <Navbar/>
+          <Route exact path="/" component={ Home } />
 
-        {/* Features I plan to build out. */}
-        {/* <Route exact path="/projects" component={Projects} /> */}
-        {/* <Route exact path="/blog" component={Blog} /> */}
-      </div>
-    </HashRouter>
+          {/* Features I plan to build out. */}
+          {/* <Route exact path="/projects" component={Projects} /> */}
+          {/* <Route exact path="/blog" component={Blog} /> */}
+        </div>
+      </HashRouter>
   )
 }
 }

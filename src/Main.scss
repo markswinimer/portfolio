@@ -13,3 +13,8 @@
   margin: 0;
   padding: 0;
 }
+
+.App-container {
+  border: .5rem solid $themeNavy;
+  background-color: $themeWhite;
+}

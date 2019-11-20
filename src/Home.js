@@ -11,7 +11,6 @@ class Home extends Component {
   render() {
     return(
       <div className="Home">
-        <div className="Home-container">
           <Title/>
 
           <ContentDivider startPositionColor="white"/>
@@ -42,7 +41,6 @@ class Home extends Component {
             content="I'd love to share some of my work with you. Feel free to reach out via email or see my work at one of these links. I'd love to share some of my work with you. Feel free to reach out via email or see my work at one of these links."
           />
           <Footer />
-        </div>
       </div>
     )
   }
