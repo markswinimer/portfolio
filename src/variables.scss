@@ -1,5 +1,7 @@
 $themeNavy: #2A363B;
 $themeWhite: #FAFAFA;
+// $themeNavy: #2A363B;
+// $themeWhite: #FAFAFA;
 
 $viewportBorderSize: .5rem;
 $defaultPadding: 1rem;
@@ -34,10 +36,17 @@ p {
   font-size: 1.2rem;
   line-height: 2rem;
 }
+li {
+  font-family: $themeCopyFont, display;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
 
 .fab, .fas {
   font-size: 2rem;
   color: $themeNavy;
+  transition: .5s ease-in;
 }
 
 .Container {
@@ -49,7 +58,7 @@ p {
 }
 @media only screen and (max-width: 450px) {
   .Container {
-    padding: $sectionPadding - 2 $contentPadding / 2;
+    padding: $sectionPadding $contentPadding / 1.5;
   }
 
 }

@@ -11,6 +11,13 @@
   border-radius: .45rem;
   display: flex;
   flex-direction: column;
+  transition: .1s ease-in;
+
+  .fab, .fas {
+    font-size: 2rem;
+    color: $themeNavy;
+    transition: .1s ease-in;
+  }
 
   h2 {
     font-weight: 700;
@@ -53,6 +60,16 @@
       margin-left: 1rem;
   }
 }
+
+.ProjectCard:hover {
+  color: $themeWhite;
+  background-color: $themeNavy;
+
+  .fas, .fab {
+    color: $themeWhite;
+  }
+}
+
 @media only screen and (max-width: 780px) {
 
   .ProjectCard:nth-child(even) {

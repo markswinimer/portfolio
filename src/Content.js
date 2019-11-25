@@ -18,6 +18,13 @@ class Content extends Component {
           <h1>{header}</h1>
           <h2>{subheader}</h2>
           <p>{content}</p>
+          <ul className="Content-tech-media">
+            <li>React</li>
+            <li>ES6 Javascrilit</li>
+            <li>HTML & CSS</li>
+            <li>Ruby on Rails</li>
+            <li>WordPress</li>
+          </ul>
         </div>
       </div>
     )

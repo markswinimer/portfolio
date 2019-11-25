@@ -1,14 +1,17 @@
 .Footer {
   display: flex;
   flex-direction: row;
-  align-items: flex-end;
+  // align-items: flex-end;
   background-color: $themeNavy;
   padding: .5rem $contentPadding;
   padding-top: 1rem;
 }
 
 .Footer-icons {
-
+  display: flex;
+  vertical-align: middle;
+  justify-content: center;
+  align-items: center;
   i {
     color: $themeWhite;
     margin-right: 1rem;
@@ -16,10 +19,33 @@
 }
 
 .Footer-contact {
+  display: flex;
+  margin-top: auto;
   margin-left: auto;
   p {
     color: $themeWhite;
     font-size: 1rem;
     line-height: 1rem;
   }
+}
+
+@media only screen and (max-width: 650px) {
+  .Footer {
+
+  }
+
+
+  .Footer-contact {
+    margin: 0;
+    flex-direction: column;
+    p {
+      color: $themeWhite;
+      font-size: 1rem;
+      line-height: 1rem;
+    }
+  }
+}
+@media only screen and (max-width: 450px) {
+
+
 }

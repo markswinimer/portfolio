@@ -10,7 +10,8 @@ class Footer extends Component {
             <a href="linkedin.com/in/markswinimer"><i className="fab fa-linkedin" /></a>
           </div>
           <div className="Footer-contact">
-            <p>2019 Mark Swinimer | markswinimer@gmail.com </p>
+            <p>2019 Mark Swinimer</p>
+            <p>markswinimer@gmail.com</p>
           </div>
         </div>
     )
