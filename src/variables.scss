@@ -6,6 +6,7 @@ $defaultPadding: 1rem;
 $contentPadding: 2.5rem;
 $contentMaxWidth: 1000px;
 $borderRadius: 3px;
+$sectionPadding: 6rem;
 
 $themeHeaderFont: Oleo Script;
 $themeSubheaderFont: Nunito, display;
@@ -39,6 +40,16 @@ p {
   color: $themeNavy;
 }
 
+.Container {
+  padding: $sectionPadding $contentPadding;
+}
+
 @media only screen and (max-width: 650px) {
+
+}
+@media only screen and (max-width: 450px) {
+  .Container {
+    padding: $sectionPadding - 2 $contentPadding / 2;
+  }
 
 }

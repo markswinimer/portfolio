@@ -5,7 +5,7 @@ class Contact extends Component {
   render() {
     const { header, content } = this.props
     return(
-      <div className="Contact">
+      <div className="Contact Container">
         <h1>{header}</h1>
         <p>{content}</p>
         <div className="Contact-links">
