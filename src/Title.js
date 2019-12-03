@@ -9,7 +9,7 @@ class Title extends Component {
           <h2>web developer</h2>
         </div>
         <div className="Title-about">
-          I'm a Web Developer located in Boston MA. My passion is writing clean, creative and functional solutions.
+          {this.props.introduction}
         </div>
       </div>
     )

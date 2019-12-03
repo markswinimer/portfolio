@@ -29,5 +29,16 @@
     font-weight: 500;
     font-size: 1.2rem;
     margin-left: 1.5rem;
+    border-bottom: 1px solid $themeNavy;
+    padding-bottom: .1rem;
+    transition: .2s ease-in;
+  }
+
+  a:hover {
+    // color: red;
+    // border-bottom: 2px solid $themeNavy;
+    letter-spacing: .5px;
+    font-weight: 700;
+
   }
 }

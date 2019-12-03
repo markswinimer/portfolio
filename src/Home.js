@@ -11,15 +11,17 @@ class Home extends Component {
   render() {
     return(
       <div className="Home">
-          <Title/>
+          <Title
+            introduction="I'm a Web Developer located in Boston MA. My passion is writing clean code, creative applications and functional solutions."
+          />
 
           <Divider startPositionColor="white"/>
 
           <About
             color="navy"
             header="About me"
-            subheader="Process and Technologies"
-            content="Briefly talk about yourself and how you got into coding as a career. Talk about transition from design in college to more web based solutions. Time at launch academy will be included. Maybe a desire to work on web applications specificly and an enjoyment for the front end."
+            subheader=""
+            content={`Nice to meet you! I'm Mark and I create web applications and implement web based solutions. I also love Dogs. I have an interest in full stack development; especially using the technologies: Ruby, Javascript, React and other` + `HELLO` + `front end libraries which make creating web applications smoother and progressive. I'm drawn in by the process of taking an idea or need and working it out to completion, to something interacted with and visible.`}
           />
           <Divider startPositionColor="navy"/>
 

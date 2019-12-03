@@ -7,8 +7,8 @@ class Projects extends Component {
         <div className="Projects Container">
           <div className="Projects-blurb">
             <h1>Projects</h1>
-            <h2>What I'm working on</h2>
-            <p>In this section, I will display a few of the projects I have been working on. Talk about the technology that interests you and what excites you. Relate to a specific project or two and talk about a framework or concept you enjoyed. Encourage looking at that project.</p>
+            <h2>what I'm working on</h2>
+            <p>I'm currently working on React applications like my <strong>color picker</strong>, which is created alongside a tutorial. I am in the process of creating some fun personal projects like a <strong>movie guessing game</strong>, <strong>personal blog</strong> and a <strong>text adventure in React</strong></p>
           </div>
           <div className="Projects-grid">
             <ProjectCard
