@@ -20,3 +20,8 @@
   border: .5rem solid $themeNavy;
   background-color: $themeWhite;
 }
+
+::selection {
+  background-color: $themeNavy;
+  color: $themeWhite;
+}
