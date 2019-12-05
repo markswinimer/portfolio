@@ -27,6 +27,14 @@
   }
 }
 
+.About-content p {
+  margin-top: 15px;
+}
+.About-content p:first-of-type {
+  margin-top: 0;
+  // color: red !important;
+}
+
 .About-right-section {
   flex-grow: auto;
   max-width: 550px;

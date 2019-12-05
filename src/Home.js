@@ -12,7 +12,7 @@ class Home extends Component {
     return(
       <div className="Home">
           <Title
-            introduction="I'm a Web Developer located in Boston MA. My passion is writing clean code, creative applications and functional solutions."
+            introduction="I'm a Web Developer located in Boston MA. My passion is writing clean code  and developing creative applications with functional solutions for the web."
           />
 
           <Divider startPositionColor="white"/>
@@ -21,7 +21,7 @@ class Home extends Component {
             color="navy"
             header="About me"
             subheader=""
-            content={`Nice to meet you! I'm Mark and I create web applications and implement web based solutions. I also love Dogs. I have an interest in full stack development; especially using the technologies: Ruby, Javascript, React and other` + `HELLO` + `front end libraries which make creating web applications smoother and progressive. I'm drawn in by the process of taking an idea or need and working it out to completion, to something interacted with and visible.`}
+            content={["Nice to meet you! I'm Mark and I create web applications and implement web based solutions. Also, I love Dogs.", "I have an interest in full stack development; especially using the technologies: Ruby, Javascript, React and other front end libraries which make creating web applications smoother and progressive."]}
           />
           <Divider startPositionColor="navy"/>
 
@@ -32,15 +32,16 @@ class Home extends Component {
           <Content
             color="navy"
             header="What I'm learning"
-            subheader="New technologies and projects"
-            content="Filler content is being input here so that I can type and not worry about making sense and still fill out a section of content for test readers to read and by test readers I mean myself because no one will be reading this at all!"
+            subheader="New technologies"
+            content="I have been familiarizing myself with React and exploring news ways to utilize this libray. New javascript technologies like Gatsby and Node applications have been fascinating to jump into."z
           />
+          {/* I'm constantly in the process of learning more Ruby and the rails framework. Mobile development is in the back of my mind and I would like to use React Native or develop for android with Java." */}
 
           <Divider startPositionColor="navy"/>
 
           <Contact
             header="Contact me!"
-            content="I'd love to share some of my work with you. Feel free to reach out via email or see my work at one of these links. I'd love to share some of my work with you. Feel free to reach out via email or see my work at one of these links."
+            content="I'd love to share some of my work with you. Feel free to reach out via email or explore my work on github. I have also provided links to the live versions in the projects sections above. Local to Boston? I'm interested in meeting up with like-minded developers over coffee at a local cafe."
           />
           <Footer />
       </div>

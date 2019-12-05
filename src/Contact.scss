@@ -14,6 +14,11 @@
   }
 }
 
+div a {
+  color: $themeNavy;
+  text-decoration: none;
+}
+
 .Contact-links {
   flex-direction: column;
   margin-top: 4rem;

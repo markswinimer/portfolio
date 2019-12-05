@@ -9,7 +9,7 @@ class Contact extends Component {
         <h1>{header}</h1>
         <p>{content}</p>
         <div className="Contact-links">
-          <div className="Contact-button">Reach out</div>
+          <div href="mailto:markswinimer@gmail.com" className="Contact-button"><a href="mailto:markswinimer@gmail.com">Reach out</a></div>
         </div>
       </div>
     )

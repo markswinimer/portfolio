@@ -4,7 +4,10 @@ import profile from './images/profile-dog.jpg';
 
 class About extends Component {
   render() {
-    const { header, subheader, content } = this.props;
+    const { header, subheader } = this.props;
+    let content = this.props.content.map(p => (
+      <p>{p}</p>
+    ))
     return(
       <div className={`About Container ${this.props.color}`}>
         <div className="About-left-section">
@@ -15,7 +18,9 @@ class About extends Component {
         <div className="About-right-section">
           <h1>{header}</h1>
           <h2>{subheader}</h2>
-          <p>{content}</p>
+          <div className="About-content">
+            {content}
+          </div>
         </div>
       </div>
     )
